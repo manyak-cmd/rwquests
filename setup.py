@@ -102,6 +102,6 @@ setup(
     },
     project_urls={
         "Documentation": "https://requests.readthedocs.io",
-        "Source": "https://github.com/psf/requests",
+        "Source": "https://github.com/manyak-cmd/rwquests",
     },
 )
